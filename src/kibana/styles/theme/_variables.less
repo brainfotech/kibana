@@ -9,14 +9,14 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-base:              #000;
+@gray-base: #ed1c24;
 @gray-darker:            lighten(@gray-base, 13.5%);
-@gray-dark:              #7b8a8b;
-@gray:                   #95a5a6;
-@gray-light:             #b4bcc2;
-@gray-lighter:           #ecf0f1;
+@gray-dark: #ed1c24;
+@gray: #ed1c24;
+@gray-light: #ed930a;
+@gray-lighter: #ecf0f1;
 
-@brand-primary:         #444444;
+@brand-primary:         #ED1C24;
 @brand-success:         #31C471; // #18BC9C
 @brand-info:            #1F6B7A;
 @brand-warning:         #F39C12;
@@ -30,10 +30,10 @@
 //** Background color for `<body>`.
 @body-bg:               #fff;
 //** Global text color on `<body>`.
-@text-color:            @brand-primary;
+@text-color:            #000;
 
 //** Global textual link color.
-@link-color:            #1F6B7A;
+@link-color:            #000;
 //** Link hover color set via `darken()` function.
 @link-hover-color:      lighten(@link-color, 10%);
 @link-hover-decoration: none;
@@ -138,7 +138,7 @@
 @table-bg-active:               @table-bg-hover;
 
 //** Border color for table and cell borders.
-@table-border-color:            @gray-lighter;
+@table-border-color:            @gray-darker;
 
 
 //== Buttons
@@ -371,7 +371,7 @@
 
 // Default theme
 @navbar-default-color:               #fff;
-@navbar-default-bg:                  #656A76;
+@navbar-default-bg:                  #ED1C24;
 @navbar-default-border:              darken(@navbar-default-bg, 10%);
 @navbar-default-link-color:          @gray-lighter;
 @navbar-default-link-hover-color:    #fff;
@@ -403,7 +403,7 @@
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              lighten(@navbar-inverse-bg, 20%);
 @navbar-inverse-link-active-color:          #fff;
-@navbar-inverse-link-active-bg:             #41454c;
+@navbar-inverse-link-active-bg:             #ED1C24;
 @navbar-inverse-link-disabled-color:        @gray-light;
 @navbar-inverse-link-disabled-bg:           transparent;
 
